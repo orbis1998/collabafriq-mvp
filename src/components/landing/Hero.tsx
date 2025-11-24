@@ -15,13 +15,10 @@ export const Hero = () => {
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground leading-tight">
-            CollabAfriq : Le Futur du Marketing d'Influence en Afrique
+            Connectez-vous avec les meilleurs créateurs de contenu d'Afrique
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
-            Basé sur la Donnée, Sécurisé par le Mobile Money.
-          </p>
-          <p className="text-lg mb-10 text-foreground/80">
-            Connectez-vous aux créateurs vérifiés (UGC, Influenceurs, Artistes) de la RDC et d'Afrique francophone.
+            La première marketplace de marketing d'influence dédiée à l'Afrique Francophone, avec paiements Mobile Money intégrés
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/brand-dashboard">
