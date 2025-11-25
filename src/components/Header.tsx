@@ -20,12 +20,16 @@ export const Header = () => {
           </Link>
         </nav>
         <div className="flex items-center gap-3">
-          <Button variant="outline" size="sm">
-            Connexion
-          </Button>
-          <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            S'inscrire
-          </Button>
+          <Link to="/auth">
+            <Button variant="outline" size="sm">
+              Connexion
+            </Button>
+          </Link>
+          <Link to="/auth">
+            <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
+              S'inscrire
+            </Button>
+          </Link>
         </div>
       </div>
     </header>
